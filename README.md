@@ -1,4 +1,4 @@
-# Phase 1 Project - 🧠 Trivia! 🤯
+# Phase 1 Project -  Trivia 🧠
 Welcome to my Project Submission!
 
 ## Description
