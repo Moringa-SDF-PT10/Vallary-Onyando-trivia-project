@@ -10,6 +10,7 @@ The screenshot below represents the display screen when you open the link. You w
 ![Welcome Screen](assets/image.png)
 
 PLAY🦦▶️
+
 The next tile contains the question to answer, you'll have 15 seconds to do so before losing the right to. Green means correct while red implies you're wrong.
 
 ![Sample Response](assets/image-1.png)
