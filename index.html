@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset = "UTF-8"/>
+            <meta name = "author" content = "Vallary Onyando"/>
+            <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"/>
+            <title> Phase 1 Project </title>
+            <link rel = "stylesheet" href = "styles.css"/>
+            <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        </head>
+
+        <body>
+            <div class = "blanket startScreen">
+                <h2> Trivia! </h2>
+                <p>You'll have 15 seconds to answer each question (10).</p>
+                <p> 🍀 Good luck 🌠 </p>
+                <div class = "btn">
+                    <input type = "text" id="userName" placeholder = "Nickname"/>
+                    <button class = "startQuiz" onclick = "startQuiz()"> Start </button>
+                </div>
+            </div>
+            <div class = "blanket playground">
+                <!-- <div> -->
+                    <div class = "quizHeader">
+                        <div> Question <span id = "questionCount"> 1 </span> of 10 </div>
+                        <div>
+                            <i class = "fa-solid fa-stopwatch"></i>
+                            <span id = "questionTimer"></span>
+                        </div>
+                    </div>
+                <!-- </div> -->
+                <div class="quizBody">
+                    <h3 id="question"></h3>
+                    <ul id="quizOptions"></ul>
+                </div>
+                <div class="loader">
+                    <i class="fa-solid fa-gear fa-spin"></i>    
+                </div>
+                <div class="quizFooter">
+                    <button id="nextButton">Next</button>
+                </div>
+            </div>
+            <div class = "container endScreen">
+        
+                <p> Hi <span id = "resultUserName"></span></p>
+                <p> Congratulations! You've completed the Quiz. </p>
+                <p> Your score is <span class = "finalScore"> 0 </span> out of 10 </p>
+
+                <div class = "btn">
+                    
+                    <button class = "resultQuiz" onclick = "startQuiz()"> Reset Quiz </button>
+                </div>
+            </div>
+            <script src = index.js></script>
+        </body>
+    </html>
